@@ -1,0 +1,12 @@
+# Node modules and build
+node_modules/
+dist/
+dist-ssr/
+
+# Logs
+*.log
+
+# Editor files
+.vscode/
+.idea/
+.DS_Store
