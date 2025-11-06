@@ -1,16 +1,34 @@
-# React + Vite
+# Grocery Delivery Website (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the **frontend** of a grocery delivery website built using **React.js** and **Tailwind CSS**. Users can browse products, add them to the cart, and see a responsive UI. Backend integration and online payments will be added later.  
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Browse grocery products with images and prices  
+- Add products to the cart  
+- Responsive design with **Tailwind CSS**  
+- Admin panel UI ready for uploading products (backend pending)  
 
-## React Compiler
+## Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+[Click here to visit the live site](https://deepalakshmimani.github.io/mern_grocery_shop_frontend/)  
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js**  
+- **Tailwind CSS**  
+- **React Router** (for navigation)  
+
+## Setup Locally
+
+1. Clone the repository:  
+
+```bash
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+```
+## Next Steps
+
+- Connect frontend with backend APIs using **Express** & **MongoDB**  
+- Implement **Stripe payment gateway** for online orders  
+- Deploy full-stack application on **Vercel**
